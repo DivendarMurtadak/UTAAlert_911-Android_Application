@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g2bg"
+     >
+
+    <Button
+        android:id="@+id/buttonContact1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pushMsg"
+        android:background="@drawable/np5"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="Set Contact-1"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/buttonContact2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonContact1"
+        android:background="@drawable/npl"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="Set Contact-2"
+        android:textColor="#FF4500" />
+
+    <TextView
+        android:id="@+id/pushMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="23dp"
+        android:text="Set Guardians:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF4500" />
+    
+</RelativeLayout>

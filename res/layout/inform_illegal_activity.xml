@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/g1bg"
+     >
+
+    <TextView
+        android:id="@+id/pushMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="Inform About:"
+         android:textColor="#FF4500"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnNarcoticDrugs"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnRobbery"
+        android:background="@drawable/npl"
+        android:text="Narcotic Drugs"
+                android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnWanted"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnNarcoticDrugs"
+        android:background="@drawable/npl"
+        android:text="Wanted Criminals"
+                android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnTerrorist"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnWanted"
+        android:background="@drawable/npl"
+        android:text="Terrorist Activity"
+                android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnRobbery"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pushMsg"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/np5"
+        android:text="Robbery"
+                android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnMissingPersons"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnTerrorist"
+        android:background="@drawable/npl"
+        android:text="Missing Persons/Vehicles"
+                android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnWeapons"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnMissingPersons"
+        android:background="@drawable/npl"
+        android:text="Illegal Weapons"
+          android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/btnOther"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnWeapons"
+        android:background="@drawable/npl"
+        android:text="Other"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textColor="#FF4500"
+         />
+
+</RelativeLayout>
+</ScrollView>

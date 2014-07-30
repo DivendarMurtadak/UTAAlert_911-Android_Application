@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/g1bg"
+    android:orientation="vertical"
+    tools:context=".Widget_DialogBox" >
+
+    <Button
+        android1:id="@+id/btnEmergencyServices"
+        android1:layout_width="fill_parent"
+        android1:layout_height="55dp"
+        android1:layout_above="@+id/btnInformIllegalActivity"
+        android1:layout_alignParentLeft="true"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android1:background="@drawable/np"
+        android1:text="Emergency Contacts"
+        android1:textColor="#FF4500" />
+    
+    <Button
+        android1:id="@+id/btnShowLocation"
+        android1:layout_width="100dp"
+        android1:layout_height="100dp"
+        android1:layout_centerHorizontal="true"
+        android1:layout_centerVertical="true"
+        android1:background="@drawable/sos_anim"
+        android1:text=" "
+        android1:textColor="#FFFFFF"
+        android1:textSize="15sp" />
+    
+
+    <LinearLayout
+        android1:id="@+id/linearLayout1"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true"
+        android1:weightSum="320" >
+
+        <Button
+            android1:id="@+id/btnContacts"
+            android1:layout_width="wrap_content"
+            android1:layout_height="match_parent"
+            android1:layout_weight="38.22"
+            android1:background="@drawable/guardian"
+            android1:gravity="bottom|center"
+            android1:paddingBottom="4dp"
+            android1:textColor="#FF4500"
+            android1:textSize="11sp" />
+
+        <Button
+            android1:id="@+id/btnUserGuide"
+            android1:layout_width="0dp"
+            android1:layout_height="55dp"
+            android:layout_marginRight="1dp"
+            android1:layout_weight="148.44"
+            android:gravity="bottom|center"
+            android:paddingBottom="4dp"
+            android:textSize="11sp"
+            android1:background="@drawable/guide"
+            android1:textColor="#FF4500" />
+
+        <Button
+            android1:id="@+id/btnMore"
+            android1:layout_width="0dp"
+            android1:layout_height="55dp"
+            android:layout_weight="132.44"
+            android:background="@drawable/more"
+            android:gravity="bottom|center"
+            android:paddingBottom="4dp"
+            android:textSize="11sp"
+            android1:textColor="#FF4500" />
+
+    </LinearLayout>
+
+    <Button
+        android1:id="@+id/btnInformIllegalActivity"
+        android1:layout_width="fill_parent"
+        android1:layout_height="55dp"
+        android1:layout_above="@+id/linearLayout1"
+        android1:layout_alignParentLeft="true"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android1:background="@drawable/np5"
+        android1:text="Inform Criminal Activity"
+        android1:textColor="#FF4500" />
+    
+    
+    <!-- <ImageView
+        android1:id="@+id/imageView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="15dp"
+        android1:src="@drawable/wecares" /> -->
+
+    <ProgressBar
+        android1:id="@+id/progBar"
+        style="?android:attr/progressBarStyleLarge"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:layout_centerVertical="true" />
+
+</RelativeLayout>

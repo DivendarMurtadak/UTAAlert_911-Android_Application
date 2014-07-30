@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g2bg" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pushMsg"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="To use the &apos;Emergency Help&apos; function of the application, you need to set the guardian&apos;s contact first. When you press the emergency button, you will be asked about the type of emergency you are in. Once you select the emergency type, an emergency message will be sent to your guardians which will inform them about the emergency type, your current GPS location and cell id of network provider."
+        android:textColor="#FF4500" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:padding="5dp"
+        android:text="It is recommended to use emergency help widget in distress as it saves valuable time in such cases."
+        android:textColor="#FF4500" />
+
+    <TextView
+        android:id="@+id/pushMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="User Guide:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF4500" />
+
+</RelativeLayout>

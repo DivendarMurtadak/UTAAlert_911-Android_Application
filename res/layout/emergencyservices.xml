@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g1bg" >
+ <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="100dp"
+        android:text="Emergency contacts:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF4500" />
+
+    <Button
+        android:id="@+id/UtArlingtonPolice"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignLeft="@+id/UtaHealthService"
+        android:layout_below="@+id/UtaHealthService"
+        android:background="@drawable/npcl"
+        android:text="UT Arlington Police"
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+
+    <Button
+        android:id="@+id/ArlingtonPoliceDept"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignLeft="@+id/UtArlingtonPolice"
+        android:layout_below="@+id/UtArlingtonPolice"
+        android:background="@drawable/npcl"
+        android:text="Arlington Police Dept."
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+
+    <Button
+        android:id="@+id/EnvironmentalSafety"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignLeft="@+id/ArlingtonPoliceDept"
+        android:layout_below="@+id/ArlingtonPoliceDept"
+        android:background="@drawable/npcl"
+        android:text="Environmental Safety "
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+
+    <Button
+        android:id="@+id/OfficeOfStudentConduct"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EnvironmentalSafety"
+        android:background="@drawable/npcl"
+        android:text="Office Of Student Conduct"
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+
+    <Button
+        android:id="@+id/CounselingService"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/OfficeOfStudentConduct"
+        android:background="@drawable/npcl"
+        android:text="Counseling Service"
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+    <Button
+        android:id="@+id/RVSPProgram"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/CounselingService"
+        android:background="@drawable/npcl"
+        android:text="RVSP Program"
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+    <Button
+        android:id="@+id/FacilitiesManagement"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RVSPProgram"
+        android:background="@drawable/npcl"
+        android:text="Facilities Management"
+        android:textColor="#FF4500"
+         android:gravity="left|center" 
+        android:paddingLeft="70dp" />
+
+    <Button
+        android:id="@+id/UtaHealthService"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/npcl"
+        android:gravity="left|center"
+        android:hint="022 27660101"
+        android:paddingLeft="70dp"
+        android:text="UTA Health Services"
+        android:textColor="#FF4500" />
+    
+</RelativeLayout>

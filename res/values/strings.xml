@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidGPSTrackingActivity!</string>
+    <string name="app_name">UtaAlert</string>
+    <string name="mcc">MCC</string>
+    <string name="alert">Alert</string>
+    <string name="contact1">Guardian Contact 1</string>
+    <string name="contact2">Guardian Contact 2</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+
+    <string name="image">Thumbnail</string>
+    <string name="disclaimer1">			 The information contained in this application is provided in good faith, and every reasonable effort is made to ensure that it is accurate and up to date.</string>
+    <string name="disclaimer3">The information contained on this application may be changed or updated at any time without notice.</string>
+    <string name="disclaimer2">Accordingly, this information is provided as is without warranty of any kind. </string>
+    <string name="cmn1">- </string>
+    <string name="cmn2">- </string>
+    <string name="cmn3">- </string>
+    <string name="cmn4">- </string>
+    <string name="cmn5">- </string>
+    <string name="cmn6">- </string>
+    <string name="cmn7">- </string>
+    <string name="cmn8">- </string>
+    <string name="cmn9">- </string>
+    <string name="cmn10">- </string>
+    <string name="cmn11">- </string>
+    <string name="cmn12">- </string>
+    
+</resources>

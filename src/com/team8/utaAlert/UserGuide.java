@@ -1,0 +1,18 @@
+package com.team8.utaAlert;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class UserGuide extends Activity  {
+
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.user_guide);
+        
+	}
+	
+	
+	
+}
